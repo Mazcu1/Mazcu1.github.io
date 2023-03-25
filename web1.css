@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0,5%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+
+:root {
+    /* Paleta de colores */
+    --primary: #0c2999;
+    --secondary: #c3d5dfe3;
+}
+
+body {
+    align-self: center;
+    position: relative;
+    background-color: #88c0d3;
+    margin: 2%;
+    height: 100vh;
+    text-align: center;
+    display: block;
+}
+
+head {
+    background-color: #fafafa;
+    text-align: center;
+}
+
+p {
+    color: #fafafa;
+}
+
+h1 {
+    color: rgb(241, 242, 242);
+    font-size: 60px;
+    font-family: "Sofia", sans-serif;
+    position: relative;
+    font-weight: normal;
+    
+}
+
+h2 {
+    color: rgb(32, 80, 175);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: rgb(33, 144, 154);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+h4 {
+    color: rgb(7, 49, 126);
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+input {
+    margin-block-end: auto;
+    background-color: rgb(199, 216, 230);
+    font: bold; color: rgba(10, 10, 106, 0.568); font-style: initial;
+    border: #ffffff;
+    text-align: center;
+}
+
+select {
+    margin-block-end: auto;
+    background-color: rgb(217, 196, 210);
+    font: bold; color: rgba(10, 10, 106, 0.568); font-style: italic;
+    border: #ffffff;
+
+}
+
+#Racing1 {
+    width: 80px;
+    position: relative;
+    margin-left: 0%;
+    background-color: #ffffff;
+    text-align: left;
+    align-items: left;
+}
+
+#Section-Novedades {
+    width: 95%;
+    text-emphasis-color: var(--secondary);
+    background: #09A0D5;
+    overflow: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1%;
+    border: 2px solid;
+    margin: 1%;
+    padding: 1%;
+    align-items:flex-end;
+    align-self: start;
+    font-family: "Sofia", sans-serif;
+    color: #fafafa;
+    background-color: #1b384a;
+    color: #ffffff;
+    display: inline-block;
+}
+
